@@ -7,7 +7,7 @@ export const en = {
   'news': 'NEWS',
   'contact': 'CONTACT',
   'siteTitle': 'Pekiti-Tirsia Kali Martial Arts Federation',
-  'heroTitle': 'The enemy is not my problem. I am his problem!',
+  'heroTitle': 'We do it from the heart and with the mind!',
   'newsTitle': 'Latest News',
   'allNews': 'All News',
   'newsText': 'A new stage in the development of martial arts and self-defense systems has been entered in Uzbekistan:',
@@ -24,5 +24,6 @@ export const en = {
   'footerAddress': 'Address',
   'footerAddress2': 'Uzbekistan, Tashkent city',
   'footerWorkTime': 'Working hours',
-  'footerErrorReport': 'If you find an error on the site, press Ctrl + Enter to notify the administration'
+  'footerErrorReport': 'If you find an error on the site, press Ctrl + Enter to notify the administration',
+  'partners': 'Partners'
 }

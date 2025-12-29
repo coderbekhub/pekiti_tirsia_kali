@@ -1,5 +1,7 @@
 import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { getLanguage, getText } from '../../locale'
+import { PEKITI } from '../../tools/constants'
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -11,7 +13,7 @@ export default function Hero() {
     <section className='heroSection'>
       <div className="container">
         <h2 className="heroTitle" data-swiper-parallax="-300">
-          Yurakdan, aql bilan bajaramiz!
+          {getText('heroTitle')}
         </h2>
         {/* <Swiper
           style={{

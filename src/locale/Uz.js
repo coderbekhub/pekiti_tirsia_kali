@@ -7,7 +7,7 @@ export const uz = {
   'news': 'YANGILIKLAR',
   'contact': 'ALOQA',
   'siteTitle': 'Pekiti-Tirsia Kali jang san’ati federatsiyasi',
-  'heroTitle': 'Dushman mening muammom emas. Men ularning muammosiman!',
+  'heroTitle': 'Yurakdan, aql bilan bajaramiz!',
   'newsTitle': 'So’ngi yangiliklar',
   'allNews': 'Barcha yangiliklar',
   'newsText': 'Oʻzbekistonda jang sanʼati va oʻzini himoya qilish tizimlarini rivojlantirishda yangi bosqichga qadam qoʻyildi:',
@@ -24,5 +24,6 @@ export const uz = {
   'footerAddress': 'Manzil',
   'footerAddress2': 'Uzbekistan, Toshkent shahar',
   'footerWorkTime': 'Ish vaqti',
-  'footerErrorReport': 'Agar saytda xatolik topsangiz, ma\'muriyatga xabar berish uchun Ctrl + Enter tugmalarini bosing Sayt '
+  'footerErrorReport': 'Agar saytda xatolik topsangiz, ma\'muriyatga xabar berish uchun Ctrl + Enter tugmalarini bosing' ,
+  'partners': 'Hamkorlar'
 }
