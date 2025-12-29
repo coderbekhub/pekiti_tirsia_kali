@@ -22,7 +22,7 @@ export default function Rahbariyat() {
             <img src={Kotib} alt="Kotib" />
             <div className='rahbariyatInfo'>
               <h2>Abdullayev Anvar</h2>
-              <p>Pekiti-Tirsia Kali federatsiya bosh kotibi</p>
+              <p>Pekiti-Tirsia Kali federatsiya kotibi</p>
             </div>
           </div>
         </div>
