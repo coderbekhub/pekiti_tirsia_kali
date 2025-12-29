@@ -261,12 +261,15 @@ a {
   height: 91.2vh;
   margin-bottom: 33px;
   
-  h2 {
+  .heroTitle {
     color: #ffffff;
     font-size: 60px;
     font-weight: 700;
     text-transform: uppercase;
-    padding-top: 100px;
+    background: #1E2859b2;
+    padding: 10px;
+    position: relative;
+    top: 100px;
   }
 }
 

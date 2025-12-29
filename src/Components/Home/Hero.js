@@ -10,8 +10,8 @@ export default function Hero() {
   return (
     <section className='heroSection'>
       <div className="container">
-        <h2 className="title" data-swiper-parallax="-300">
-          Yurakdan aql bilan bajaramiz!
+        <h2 className="heroTitle" data-swiper-parallax="-300">
+          Yurakdan, aql bilan bajaramiz!
         </h2>
         {/* <Swiper
           style={{
