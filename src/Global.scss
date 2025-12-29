@@ -632,14 +632,14 @@ a {
       font-weight: 700;
     }
     .rahbariyatCard {
+      width: 800px;
       display: flex;
-      margin-bottom: 10px;
+      margin: 0 30px 20px 0;
       align-items: center;
       background: #fff;
       border-radius: 12px;
       padding: 20px 0 20px 20px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
-      
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
       
       img {
         width: 120px;
@@ -660,6 +660,24 @@ a {
           font-size: 15px;
           color: #0549AE;
         }
+      }
+    }
+
+    .rahbariyatCardSec {
+      width: 400px;
+      height: 180px;
+      display: block;
+      h2 {
+        font-size: 14px;
+        line-height: 20px;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #000;
+      }
+
+      .federatsiyaH1 {
+        font-size: 18px;
+        color: #0549AE;
       }
     }
   }
@@ -767,6 +785,29 @@ a {
           font-size: 25px;
         }
       }
+    }
+  }
+}
+
+// FEDERATION PAGE START
+
+.federatsiyaSection {
+  div {
+    h2 {
+      padding-top: 50px;
+      font-weight: 700;
+      font-size: 22px;
+      display: flex;
+      align-items: center;
+      margin-bottom: 35px;
+    }
+
+    p {
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 122.4%;
+      color: #3B3B3B;
+      margin-bottom: 50px;
     }
   }
 }
