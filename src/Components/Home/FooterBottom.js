@@ -22,7 +22,7 @@ export default function FooterBottom() {
             <p>Юнусабадский  р-н , 18</p>
           </div>
           <div className='bottom20 col-12 col-md-6 col-xl-3'>
-            <h2>Рабочее вреья</h2>
+            <h2>Рабочее время</h2>
             <p>09:00 - 20:00 без выходных</p>
           </div>
           <div className='col-12 col-md-6 col-xl-3'>
