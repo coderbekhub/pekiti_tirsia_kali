@@ -2,13 +2,8 @@ import React from 'react'
 import { getLanguage, getText } from '../../locale'
 import { ARCHERY } from '../../tools/constants'
 import { Link } from 'react-router-dom'
-import NewsImg1 from '../../img/news1.jpg'
-import NewsImg2 from '../../img/news2.jpg'
-import NewsImg3 from '../../img/news3.jpg'
-import NewsImg4 from '../../img/news4.jpg'
-import NewsImg5 from '../../img/news5.jpg'
-import NewsImg6 from '../../img/news6.jpg'
-import AboutUsImg from '../../img/news7.jpg'
+import NewsImg from '../../img/newsImg.png'
+import AboutUsImg from '../../img/aboutUsImg.png'
 
 export default function HomeNews() {
   return (
@@ -22,48 +17,48 @@ export default function HomeNews() {
         </div>
         <div className='row HomeNewsContent'>
           <div className='HomeNewsAnimated col-12 col-md-6 col-xl-4'>
-            <img src={NewsImg1} alt="..." />
-            <h2>{getText('newsText')}</h2>
+            <img src={NewsImg} alt="..." />
+            <h2>Интересный конкурс, в котором отобрали юных снайперов</h2>
             <div className='moreNewsContent'>
               <Link className='moreNews' to='/'>{getText('newsMore')}</Link>
               <span>{getText('newsDate')}</span>
             </div>
           </div>
           <div className='HomeNewsAnimated col-12 col-md-6 col-xl-4'>
-            <img src={NewsImg2} alt="..." />
-            <h2>{getText('newsText')}</h2>
+            <img src={NewsImg} alt="..." />
+            <h2>Интересный конкурс, в котором отобрали юных снайперов</h2>
             <div className='moreNewsContent'>
               <Link className='moreNews' to='/'>{getText('newsMore')}</Link>
               <span>{getText('newsDate')}</span>
             </div>
           </div>
           <div className='HomeNewsAnimated col-12 col-md-6 col-xl-4'>
-            <img src={NewsImg3} alt="..." />
-            <h2>{getText('newsText')}</h2>
+            <img src={NewsImg} alt="..." />
+            <h2>Интересный конкурс, в котором отобрали юных снайперов</h2>
             <div className='moreNewsContent'>
               <Link className='moreNews' to='/'>{getText('newsMore')}</Link>
               <span>{getText('newsDate')}</span>
             </div>
           </div>
           <div className='HomeNewsAnimated col-12 col-md-6 col-xl-4'>
-            <img src={NewsImg4} alt="..." />
-            <h2>{getText('newsText')}</h2>
+            <img src={NewsImg} alt="..." />
+            <h2>Интересный конкурс, в котором отобрали юных снайперов</h2>
             <div className='moreNewsContent'>
               <Link className='moreNews' to='/'>{getText('newsMore')}</Link>
               <span>{getText('newsDate')}</span>
             </div>
           </div>
           <div className='HomeNewsAnimated col-12 col-md-6 col-xl-4'>
-            <img src={NewsImg5} alt="..." />
-            <h2>{getText('newsText')}</h2>
+            <img src={NewsImg} alt="..." />
+            <h2>Интересный конкурс, в котором отобрали юных снайперов</h2>
             <div className='moreNewsContent'>
               <Link className='moreNews' to='/'>{getText('newsMore')}</Link>
               <span>{getText('newsDate')}</span>
             </div>
           </div>
           <div className='HomeNewsAnimated col-12 col-md-6 col-xl-4'>
-            <img src={NewsImg6} alt="..." />
-            <h2>{getText('newsText')}</h2>
+            <img src={NewsImg} alt="..." />
+            <h2>Интересный конкурс, в котором отобрали юных снайперов</h2>
             <div className='moreNewsContent'>
               <Link className='moreNews' to='/'>{getText('newsMore')}</Link>
               <span>{getText('newsDate')}</span>
@@ -75,7 +70,7 @@ export default function HomeNews() {
 
         <div className='aboutUsContent row '>
           <div className='aboutUsInfo col-12 col-md-6'>
-            <img src={AboutUsImg} alt="..." />
+            <img src={NewsImg3} alt="..." />
           </div>
           <div className='aboutUsInfo col-12 col-md-6'>
             <h2>{getText('aboutTitle')}</h2>

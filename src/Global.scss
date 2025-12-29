@@ -20,7 +20,6 @@ $body-bg : #f7f7f7;
 
 body {
   scrollbar-color: red yellow;
-
 }
 
 .container {
@@ -37,7 +36,6 @@ a {
 }
 
 // HEADER START
-
 .headerSection {
   background: $navBlue;
   height: 65px;
@@ -237,8 +235,9 @@ a {
   }
   
   .navToggle {
-    position: absolute;
-    bottom: -45px;
+    position: relative;
+    position: fixed;
+    top: 60px;
     right: 0;
     cursor: pointer;
     display: none;
@@ -250,12 +249,9 @@ a {
       transition: 0.4s ease-in;
     }
   }
-  
 }
 
-
 // HERO START
-
 .heroSection {
   background: url(./img/HeroImg1.jpg);
   background-repeat: no-repeat;
@@ -275,7 +271,6 @@ a {
 }
 
 // HOME NEWS START
-
 .HomeNewsSection {
   .HomeNewsText {
     display: flex;
@@ -322,7 +317,7 @@ a {
       }
       img {
         width: 370px;
-        height: auto;
+        height: 246px;
         border-radius: 3px;
         object-fit: cover;
         margin-bottom: 10px;
@@ -353,7 +348,6 @@ a {
   }
 
   // ABOUT US START
-
   .aboutUsContent {
     margin: 100px 0;    
     .aboutUsInfo {
@@ -391,7 +385,6 @@ a {
 }
 
 // INDICATOR START
-
 .indicatorSection {
   width: 100%;
   height: 100vh;
@@ -402,7 +395,6 @@ a {
   background-position: center;
 
   .pTop {
-    // padding-top: 450px;
     position: absolute;
     top: 0;
     right: 0;
@@ -414,7 +406,6 @@ a {
     align-items: center;
     flex-direction: column;
     z-index: 2;
-
   }
 
   .blur {
@@ -520,7 +511,6 @@ a {
 }
 
 // GALLARY START
-
 .gallarySection {
   margin-bottom: 100px;
   .galleryTitle {
@@ -537,26 +527,29 @@ a {
   .gallaryContent {
     .gallaryInfo {
       display: flex;
-      justify-content: center;
       align-items: center;
-      img {
-        width: 650px;
+      justify-content: space-between;
+      .galleryBigImg {
+        width: 750px;
         height: 557px;
         margin-bottom: 30px;
         object-fit: cover;
-        margin-right: 90px;
       }
 
       .gallaryInfo2 {
         display: flex;
-        flex-direction: column;
+        display: block;
+        position: relative;
+        left: 250px;
+
         img {
           object-fit: cover;
           width: 350px;
           height: 264px;
         }
         img:nth-child(1) {
-          margin-bottom: 30px;
+          position: relative;
+          top: -30px;
         }
       }
     }
@@ -567,6 +560,8 @@ a {
       justify-content: space-between;
       object-fit: cover;
       img {
+        width: 350px;
+        height: 264px;
         margin-right: 85px;
       }
     }
@@ -574,10 +569,7 @@ a {
   }
 }
 
-
-
 // ATLETS START
-
 .atletsSection {
   margin-bottom: 100px;
   h2 {
@@ -594,20 +586,30 @@ a {
   .atletsContent {
     div {
       cursor: pointer;
-      transform: scale(1);
-      transition: all .5s ease-in-out;
-      &:hover {
-        transform: scale(1.1);
-      }
-      img {
-        margin-bottom: 20px;
-      }
-
+      margin: 0 auto;    
+      text-align: center;
+      margin-bottom: 10px;  
       p {
         font-weight: 700;
         font-size: 15px;
         line-height: 107.9%;
         color: $black;
+      }
+    }
+
+    .atletsAva {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      background-color: #ffffffb2;
+      padding-top: 20px;
+      transform: scale(1);
+
+      img {
+        &:hover {
+          transition: all .5s ease-in-out;
+          transform: scale(1.2);
+        }
       }
     }
   }
@@ -654,14 +656,12 @@ a {
 }
 
 // GOOGLE MAP
-
 .googleMap {
   width: 100%;
   height: 300px;
 }
 
 // FOOTER START 
-
 .footerNavSection {
   background: #18235C;
   padding: 20px 0;
@@ -696,6 +696,66 @@ a {
         font-size: 16px;
         line-height: 10px;
         color: $white;
+      }
+    }
+  }
+}
+
+// FOOTER BOTTOM START 
+.footerBottom {
+  padding: 30px 0;
+  background: #242E64;
+
+  .footerBottomContent {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    div {
+      h2 {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 96.4%;
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.01em;
+        color: $white;
+        margin-bottom: 20px;
+      }
+
+      .footerBottomInfo {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 96.4%;
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.01em;
+        color: $white;
+        margin-bottom: 10px;
+        i {
+          font-size: 20px;
+          margin-right: 10px;
+        }
+      }
+
+      p {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.01em;
+        color: $white;
+        margin-bottom: 10px;
+      }
+    }
+
+    div {
+      .footerSocialLink {
+        a {
+          margin-right: 20px;
+          color: $white;
+          font-size: 25px;
+        }
       }
     }
   }
