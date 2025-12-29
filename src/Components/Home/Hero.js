@@ -10,7 +10,10 @@ export default function Hero() {
   return (
     <section className='heroSection'>
       <div className="container">
-        <Swiper
+        <h2 className="title" data-swiper-parallax="-300">
+          противник — не моя проблема. <br /> Я — его проблема!
+        </h2>
+        {/* <Swiper
           style={{
             "--swiper-navigation-color": "#fff",
             "--swiper-pagination-color": "#fff",
@@ -29,9 +32,9 @@ export default function Hero() {
             className="parallax-bg"
             data-swiper-parallax="-23%"
           ></div>
-          <SwiperSlide>
+          <SwiperSlide className="sliderTitle">
             <h2 className="title" data-swiper-parallax="-300">
-              Slide 1
+              противник — не моя проблема. <br /> Я — его проблема.
             </h2>
             <div className="text" data-swiper-parallax="-100">
               <p>
@@ -65,7 +68,7 @@ export default function Hero() {
             </div>
               <a className="heroBtn" href="#">Подробнее</a>
           </SwiperSlide>
-        </Swiper>
+        </Swiper> */}
       </div>
     </section>
   )

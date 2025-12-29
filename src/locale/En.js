@@ -1,4 +1,22 @@
 export const en = {
   // NAV START
   'home': 'MAIN' ,
+  'federation': 'OUR FEDERATION',
+  'gallery': 'GALLERY',
+  'competition': 'COMPETITION',
+  'news': 'NEWS',
+  'contact': 'CONTACT',
+  'siteTitle': 'Pekiti-Tirsia Kali Martial Arts Federation',
+  'heroTitle': 'The enemy is not my problem. I am his problem!',
+  'newsTitle': 'Latest News',
+  'allNews': 'All News',
+  'newsText': 'A new stage in the development of martial arts and self-defense systems has been entered in Uzbekistan:',
+  'newsMore': 'Read more',
+  'newsDate': 'December 20, 2025',
+  'aboutTitle': 'A little about us',
+  'aboutText1': 'PHILIPPINE MARTIAL ARTS FEDERATION' ,
+  'aboutText2': 'The art of pekiti tirsia kali is multifaceted. Its advantage is that it encompasses a full range of combat subsystems. All these subsystems share a common motor base and a unified logic, meaning they are studied organically and in parallel.',
+  'indicatorHeaderTitle': 'Pekiti-Tirsia Kali Martial Arts Federation',
+  'indicatorHeaderText': 'The art of pekiti tirsia kali is multifaceted. Its advantage is that it encompasses a full range of combat subsystems. All these subsystems share a common motor base and a unified logic, meaning they are studied organically and in parallel'
+  
 }

@@ -27,11 +27,11 @@ export default function Nav() {
         <nav className='nav'>
           <ul className={active}>
             <li><Link className='navLink' to='/'> {getText('home')} </Link></li>
-            <li><Link className='navLink' to='/federation'>НАША ФЕДЕРАЦИЯ</Link></li>
-            <li><Link className='navLink' to='/gallary'>ГАЛЕРЕЯ</Link></li>
-            <li><Link className='navLink' to='/musobaqa'>СОРЕВНОВАНИЕ</Link></li>
-            <li><Link className='navLink' to='/news'>НОВОСТИ</Link></li>
-            <li><Link className='navLink' to='/contact'>СВЯЗЬ</Link></li>
+            <li><Link className='navLink' to='/federation'>{getText('federation')}</Link></li>
+            <li><Link className='navLink' to='/gallary'>{getText('gallery')}</Link></li>
+            <li><Link className='navLink' to='/musobaqa'>{getText('competition')}</Link></li>
+            <li><Link className='navLink' to='/news'>{getText('news')}</Link></li>
+            <li><Link className='navLink' to='/contact'>{getText('contact')}</Link></li>
             
             <ul className='langList'>
                 <li className='langWrap d-flex align-items-center'>

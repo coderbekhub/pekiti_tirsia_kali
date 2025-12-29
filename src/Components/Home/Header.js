@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import { getLanguage, getText } from '../../locale'
 import { ARCHERY } from '../../tools/constants'
 import SearchIcon from '../../img/search.svg'
-import ArcheryBrand from '../../img/brandArchery.svg'
+import ArcheryBrand from '../../img/brand.png'
 
 export default function Header() {
   const changeLanguage = (e) => {
@@ -17,10 +17,11 @@ export default function Header() {
           <div className='headerBrand d-flex align-items-center'>
             <a href="/" className='d-flex align-items-center'>
               <img src={ArcheryBrand} alt="..." />
-              <h2>Федерация стрельбы из лука Узбекистана</h2>
+              <h2>{getText('siteTitle')}</h2>
             </a>
           </div>
           <div className="headerContent d-flex align-items-center">
+            <span>Sayt test rejimida!</span>
             <a href="tel:+998977770777">+998 97 777 07 77</a>
 
             <ul className='langList resNoneLang'>

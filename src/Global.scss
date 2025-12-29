@@ -52,9 +52,8 @@ a {
     box-shadow: 0 0 7px 0px #00000038;
 
     img {
-      width: 65px;
+      width: 85px;
       height: auto;
-      margin-right: 8px;
     }
     h2 {
       font-size: 15px;
@@ -67,6 +66,11 @@ a {
   }
 
   .headerContent {
+    span {
+      color: #ff0000;
+      font-weight: 500;
+      margin-right: 20px;
+    }
     margin-bottom: 50px;
     a {
       font-weight: 500;
@@ -253,13 +257,21 @@ a {
 // HERO START
 
 .heroSection {
-  background: url(./img/heroImg.png);
+  background: url(./img/HeroImg1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   width: 100%;
   height: 91.2vh;
   margin-bottom: 33px;
+  
+  h2 {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 100px;
+  }
 }
 
 // HOME NEWS START
@@ -384,7 +396,7 @@ a {
   width: 100%;
   height: 100vh;
   position: relative;
-  background: url(./img/IndicatorBgImg.png);
+  background: url(./img/HeroImg2.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -601,6 +613,46 @@ a {
   }
 }
 
+// RAHBARIYAT START
+
+.rahbariyatSection {
+  margin-bottom: 100px;
+  .rahbariyatContent {
+    .rahbariyatTitle {
+      margin-bottom: 50px;
+      font-size: 30px;
+      line-height: 21px;
+      font-weight: 700;
+    }
+    .rahbariyatCard {
+      display: flex;
+      margin-bottom: 50px;
+      align-items: center;
+      
+      img {
+        width: 140px;
+        height: 140px;
+        object-fit: cover;
+        margin-right: 20px;
+      }
+
+      .rahbariyatInfo {
+        h2 {
+          font-size: 15px;
+          line-height: 21px;
+          text-transform: uppercase;
+          font-weight: 700;
+        }
+
+        p {
+          font-weight: 500;
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
+
 // GOOGLE MAP
 
 .googleMap {
@@ -621,9 +673,8 @@ a {
       display: flex;
       align-items: center;
       img {
-        width: 65px;
+        width: 100px;
         height: auto;
-        margin-right: 10px;
       }
       h2 {
         width: 277px;
