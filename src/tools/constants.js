@@ -1,1 +1,1 @@
-export const ARCHERY = "ARCHERY" 
+export const PEKITI = "PEKITI"

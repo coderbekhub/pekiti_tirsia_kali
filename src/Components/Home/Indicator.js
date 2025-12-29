@@ -1,6 +1,6 @@
 import React from 'react'
 import { getLanguage, getText } from '../../locale'
-import { ARCHERY } from '../../tools/constants'
+import { PEKITI } from '../../tools/constants'
 import CountUp from 'react-countup';
 import Partner from './Partner';
 
@@ -19,19 +19,19 @@ export default function Indicator() {
             <h2>{getText('indicatorHeaderTitle')}</h2>
             <div className='col-12 col-md-3 '>
               <h1><CountUp start={0} end={22} duration={2} delay={0} />+</h1>
-              <h2>{getText('indicatorHeaderTitle')}</h2>
+              <h2>{getText('indicatorHeaderTitle2')}</h2>
             </div>
             <div className='col-12 col-md-3 '>
               <h1><CountUp start={0} end={278} duration={2} delay={0} />+</h1>
-              <h2>{getText('indicatorHeaderTitle')}</h2>
+              <h2>{getText('indicatorHeaderTitle2')}</h2>
             </div>
             <div className='col-12 col-md-3 '>
               <h1><CountUp start={0} end={800} duration={2} delay={0} />+</h1>
-              <h2>{getText('indicatorHeaderTitle')}</h2>
+              <h2>{getText('indicatorHeaderTitle2')}</h2>
             </div>
             <div className='col-12 col-md-3 '>
               <h1><CountUp start={0} end={32} duration={2} delay={0} />+</h1>
-              <h2>{getText('indicatorHeaderTitle')}</h2>
+              <h2>{getText('indicatorHeaderTitle2')}</h2>
             </div>
           </div>
         </div>

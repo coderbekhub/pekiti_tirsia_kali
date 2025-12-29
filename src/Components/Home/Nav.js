@@ -1,11 +1,11 @@
 import React, {useState, useEffect} from 'react'
-import { ARCHERY } from '../../tools/constants'
+import { PEKITI } from '../../tools/constants'
 import { getLanguage, getText } from '../../locale'
 import { Link } from 'react-router-dom'
 
 export default function Nav() {
     const changeLanguage = (e) => {
-      localStorage.setItem(ARCHERY, e)
+      localStorage.setItem(PEKITI, e)
       document.location.reload(true)
     }
   

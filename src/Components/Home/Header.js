@@ -1,12 +1,12 @@
 import React, {useState, useEffect} from 'react'
 import { getLanguage, getText } from '../../locale'
-import { ARCHERY } from '../../tools/constants'
+import { PEKITI } from '../../tools/constants'
 import SearchIcon from '../../img/search.svg'
 import ArcheryBrand from '../../img/brand.png'
 
 export default function Header() {
   const changeLanguage = (e) => {
-    localStorage.setItem(ARCHERY, e)
+    localStorage.setItem(PEKITI, e)
     document.location.reload(true)
   }
 

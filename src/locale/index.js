@@ -1,10 +1,10 @@
-import { ARCHERY } from '../tools/constants'
+import { PEKITI } from '../tools/constants'
 import { en } from './En'
 import { ru } from './Ru'
 import { uz } from './Uz'
 
 export const getLanguage = () => {
-  return localStorage.getItem(ARCHERY)
+  return localStorage.getItem(PEKITI)
 }
 
 export const getText = word => {

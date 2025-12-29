@@ -1,4 +1,6 @@
 import React from 'react'
+import { getLanguage, getText } from '../../locale'
+import { PEKITI } from '../../tools/constants'
 import atletsImg from '../../img/atletsImg.svg'
 import AtletsAva from '../../img/archeryAva/ava1.png'
 import AtletsAva2 from '../../img/archeryAva/ava2.png'
@@ -9,7 +11,7 @@ export default function Atlet() {
   return (
     <section className='atletsSection'>
       <div className="container">
-        <h2>Наши атлеты</h2>
+        <h2>{getText('yoriqchilar')}</h2>
         <div className='row text-center atletsContent'>
           <div className='col-12 col-md-6 col-xl-2'>
             <div className='atletsAva'>

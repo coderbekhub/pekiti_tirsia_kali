@@ -11,7 +11,7 @@ export default function Hero() {
     <section className='heroSection'>
       <div className="container">
         <h2 className="title" data-swiper-parallax="-300">
-          противник — не моя проблема. <br /> Я — его проблема!
+          Yurakdan aql bilan bajaramiz!
         </h2>
         {/* <Swiper
           style={{

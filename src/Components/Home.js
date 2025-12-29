@@ -8,7 +8,9 @@ import Partner from './Home/Partner'
 import Gallary from './Home/Gallary'
 import Atlet from './Home/Atlet'
 import ArcheryMaps from './Home/ArcheryMaps'
+import Rahbariyat from './Home/Rahbariyat'
 import FooterNav from './Home/FooterNav'
+import FooterBottom from './Home/FooterBottom'
 
 export default function Home() {
   return (

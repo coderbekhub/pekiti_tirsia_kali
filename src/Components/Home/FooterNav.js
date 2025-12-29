@@ -1,6 +1,6 @@
 import React from 'react'
 import { getLanguage, getText } from '../../locale'
-import { ARCHERY } from '../../tools/constants'
+import { PEKITI } from '../../tools/constants'
 import { Link } from 'react-router-dom'
 import FooterBrand from '../../img/brand.png'
 
