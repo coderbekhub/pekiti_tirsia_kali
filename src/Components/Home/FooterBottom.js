@@ -42,7 +42,7 @@ export default function FooterBottom() {
                 <i class='bx bxl-youtube'></i>
               </a>
             </div>
-            <p>{getText('footerErrorReport')}</p>
+            <p>{getText('footerErrorReport')} <br /> </p>
           </div>
         </div>
       </div>

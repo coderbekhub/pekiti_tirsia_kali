@@ -24,5 +24,5 @@ export const uz = {
   'footerAddress': 'Manzil',
   'footerAddress2': 'Uzbekistan, Toshkent shahar',
   'footerWorkTime': 'Ish vaqti',
-  'footerErrorReport': 'Agar saytda xatolik topsangiz, ma\'muriyatga xabar berish uchun Ctrl + Enter tugmalarini bosing'
+  'footerErrorReport': 'Agar saytda xatolik topsangiz, ma\'muriyatga xabar berish uchun Ctrl + Enter tugmalarini bosing Sayt '
 }

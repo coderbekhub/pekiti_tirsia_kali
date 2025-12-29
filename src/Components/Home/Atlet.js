@@ -9,6 +9,7 @@ import AtletsAva4 from '../../img/archeryAva/ava4.png'
 import Yoriqchi1 from '../../img/archeryAva/Yoriqchi1.png'
 import Yoriqchi2 from '../../img/archeryAva/Yoriqchi2.png'
 import Yoriqchi3 from '../../img/archeryAva/Yoriqchi3.png'
+import Yoriqchi4 from '../../img/archeryAva/Yoriqchi4.png'
 
 export default function Atlet() {
   return (
@@ -36,22 +37,22 @@ export default function Atlet() {
           </div>
           <div className='col-6 col-md-6 col-xl-2'>
             <div className='atletsAva'>
-              <img src={AtletsAva4} with='90' height='90' alt="atlets ava" />
+              <img src={Yoriqchi4} with='90' height='90' alt="atlets ava" />
             </div>
-            <p>Name Sname</p>
+            <p>Ibragimov Oybek</p>
           </div>
-          <div className='col-6 col-md-6 col-xl-2'>
+          {/* <div className='col-6 col-md-6 col-xl-2'>
             <div className='atletsAva'>
               <img src={AtletsAva} with='90' height='90' alt="atlets ava" />
             </div>
             <p>Name Sname</p>
-          </div>
-          <div className='col-6 col-md-6 col-xl-2'>
+          </div> */}
+          {/* <div className='col-6 col-md-6 col-xl-2'>
             <div className='atletsAva'>
               <img src={AtletsAva2} with='90' height='90' alt="atlets ava" />
             </div>
             <p>Name Sname</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
