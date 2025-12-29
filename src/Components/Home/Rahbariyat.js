@@ -2,14 +2,14 @@ import React from 'react'
 import { getLanguage, getText } from '../../locale'
 import { PEKITI } from '../../tools/constants'
 import RahbariyatImg from '../../img/rahbar.png'
-// import RahbariyatImg2 from '../../img/rahbariyat2.jpg'
+import Kotib from '../../img/kotib.png'
 
 export default function Rahbariyat() {
   return (
     <section className='rahbariyatSection'>
       <div className="container">
         <div className='rahbariyatContent'>
-          <h2 className='rahbariyatTitle'>Federatsiya rahbari</h2>
+          <h2 className='rahbariyatTitle'>RAHBARIYAT</h2>
           <div className="rahbariyatCard">
             <img src={RahbariyatImg} alt="RahbariyatImg" />
             <div className='rahbariyatInfo'>
@@ -18,13 +18,13 @@ export default function Rahbariyat() {
             </div>
           </div>
 
-          {/* <div className="rahbariyatCard">
-            <img src={RahbariyatImg2} alt="RahbariyatImg" />
+          <div className="rahbariyatCard">
+            <img src={Kotib} alt="Kotib" />
             <div className='rahbariyatInfo'>
-              <h2>Leopoldo Tortal Gaje</h2>
-              <p>Pekiti-Tirsia Kali jaxon federatsiyasi raisi</p>
+              <h2>Abdullayev Anvar</h2>
+              <p>Pekiti-Tirsia Kali federatsiya bosh kotibi</p>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </section>

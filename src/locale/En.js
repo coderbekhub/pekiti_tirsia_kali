@@ -19,7 +19,7 @@ export const en = {
   'indicatorHeaderTitle': 'Why choose us?',
   'indicatorHeaderTitle2': 'Pekiti-Tirsia Kali Martial Arts Federation',
   'indicatorHeaderText': 'The art of pekiti tirsia kali is multifaceted. Its advantage is that it encompasses a full range of combat subsystems. All these subsystems share a common motor base and a unified logic, meaning they are studied organically and in parallel',
-  'yoriqchilar': 'Federation guides',
+  'yoriqchilar': 'GUIDES',
   'footerContact': 'Contacts',
   'footerAddress': 'Address',
   'footerAddress2': 'Uzbekistan, Tashkent city',
