@@ -19,5 +19,10 @@ export const uz = {
   'indicatorHeaderTitle': "Nima uchun bizni tanlash kerak?",
   'indicatorHeaderTitle2': 'Pekiti-Tirsia Kali jang san’ati federatsiyasi',
   'indicatorHeaderText': "Pekiti tirsia kali san'ati ko'p qirrali. Uning afzalligi shundaki, u jangovar quyi tizimlarning to'liq doirasini qamrab oladi. Bu quyi tizimlarning barchasi umumiy motor bazasi va yagona mantiqqa ega, ya'ni ular organik va parallel ravishda o'rganiladi.",
-  'yoriqchilar': 'Federatsiya yoʼriqchilari'
+  'yoriqchilar': 'Federatsiya yoʼriqchilari',
+  'footerContact': 'Kontaktlar',
+  'footerAddress': 'Manzil',
+  'footerAddress2': 'Uzbekistan, Toshkent shahar',
+  'footerWorkTime': 'Ish vaqti',
+  'footerErrorReport': 'Agar saytda xatolik topsangiz, ma\'muriyatga xabar berish uchun Ctrl + Enter tugmalarini bosing'
 }

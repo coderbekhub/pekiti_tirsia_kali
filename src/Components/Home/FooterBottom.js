@@ -1,4 +1,6 @@
 import React from 'react'
+import { getLanguage, getText } from '../../locale'
+import { PEKITI } from '../../tools/constants'
 
 export default function FooterBottom() {
   return (
@@ -6,7 +8,7 @@ export default function FooterBottom() {
       <div className="container">
         <div className='footerBottomContent row'>
           <div className='bottom30 col-12 col-md-6 col-xl-3'>
-            <h2>Контакты</h2>
+            <h2>{getText('footerContact')}</h2>
             <a className='footerBottomInfo' href="tel:+998977770777">
               <i class='bx bx-phone-call' ></i>
               +998 97 777 07 77
@@ -17,13 +19,13 @@ export default function FooterBottom() {
             </a>
           </div>
           <div className='bottom30 col-12 col-md-6 col-xl-3'>
-            <h2>Адрес</h2>
-            <p>Узбекистан г.Ташкент</p>
-            <p>Юнусабадский  р-н , 18</p>
+            <h2>{getText('footerAddress')}</h2>
+            <p>{getText('footerAddress2')}</p>
+            <p>Yunusobod r-n , 18</p>
           </div>
           <div className='bottom20 col-12 col-md-6 col-xl-3'>
-            <h2>Рабочее время</h2>
-            <p>09:00 - 20:00 без выходных</p>
+            <h2>{getText('footerWorkTime')}</h2>
+            <p>09:00 - 20:00</p>
           </div>
           <div className='col-12 col-md-6 col-xl-3'>
             <div className='footerSocialLink'>
@@ -40,7 +42,7 @@ export default function FooterBottom() {
                 <i class='bx bxl-youtube'></i>
               </a>
             </div>
-            <p>При обнаруже ошибки на сайте. и нажмите Ctr + Enter для уведомления адинстрации</p>
+            <p>{getText('footerErrorReport')}</p>
           </div>
         </div>
       </div>
