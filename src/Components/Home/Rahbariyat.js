@@ -1,7 +1,7 @@
 import React from 'react'
 import { getLanguage, getText } from '../../locale'
 import { PEKITI } from '../../tools/constants'
-import RahbariyatImg from '../../img/rahbariyat.jpg'
+import RahbariyatImg from '../../img/rahbar.png'
 // import RahbariyatImg2 from '../../img/rahbariyat2.jpg'
 
 export default function Rahbariyat() {
