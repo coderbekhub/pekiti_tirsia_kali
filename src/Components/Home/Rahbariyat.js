@@ -1,9 +1,10 @@
 import React from 'react'
 import { getLanguage, getText } from '../../locale'
 import { PEKITI } from '../../tools/constants'
-import RahbariyatImg from '../../img/rahbar.png'
-import Kotib from '../../img/kotib.png'
 import { Link } from 'react-router-dom'
+import Rovshan from '../../img/rahbar.png'
+import Kotib from '../../img/kotib.png'
+import Sormonkulov from '../../img/Sormonkulov.jpg'
 
 export default function Rahbariyat() {
   return (
@@ -14,10 +15,17 @@ export default function Rahbariyat() {
           <div className='d-flex'>
             <div>
               <div className="rahbariyatCard">
-                <img src={RahbariyatImg} alt="RahbariyatImg" />
+                <img src={Sormonkulov} alt="Sormonkulov" />
+                <div className='rahbariyatInfo'>
+                  <h2>Sormonkulov Adxamjon Rayimovich</h2>
+                  <p>Pekiti-Tirsia Kali federatsiya raisi</p>
+                </div>
+              </div>
+              <div className="rahbariyatCard">
+                <img src={Rovshan} alt="RahbariyatImg" />
                 <div className='rahbariyatInfo'>
                   <h2>Ravshan Xatamov Alimarovich</h2>
-                  <p>Pekiti-Tirsia Kali federatsiya raisi </p>
+                  <p>Pekiti-Tirsia Kali federatsiya raisi 1-o'rinbosari</p>
                 </div>
               </div>
               <div className="rahbariyatCard">
