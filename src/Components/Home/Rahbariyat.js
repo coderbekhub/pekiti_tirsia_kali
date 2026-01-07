@@ -25,7 +25,7 @@ export default function Rahbariyat() {
                 <img src={Rovshan} alt="RahbariyatImg" />
                 <div className='rahbariyatInfo'>
                   <h2>Ravshan Xatamov Alimarovich</h2>
-                  <p>Pekiti-Tirsia Kali federatsiya raisi 1-o'rinbosari</p>
+                  <p>Pekiti-Tirsia Kali federatsiya raisi o'rinbosari</p>
                 </div>
               </div>
               <div className="rahbariyatCard">
